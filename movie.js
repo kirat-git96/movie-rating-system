@@ -1,4 +1,4 @@
-let ratings = {interstellar [], inception[]};
+let ratings = {interstellar: [], inception: []};
 
 function rateMovie(movieName,stars) {
 

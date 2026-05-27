@@ -10,16 +10,31 @@
 
     <div class="movie">
         <h2>Interstellar</h2>
+        <img src="https://cdn.mos.cms.futurecdn.net/rbe3PBtDMcNCexmwx3h3W4-768-80.jpg" width="200">
+        <br><br>
+        <button onclick="rateMovie('interstellar',5)">⭐⭐⭐⭐⭐</button>
+        <button onclick="rateMovie('interstellar',4)">⭐⭐⭐⭐</button>
+        <button onclick="rateMovie('interstellar',3)">⭐⭐⭐</button>
+        <button onclick="rateMovie('interstellar',2)">⭐⭐</button>
+        <button onclick="rateMovie('interstellar',1)">⭐</button>
 
-        <button onclick="rateMovie(5)">5 ⭐</button>
-        <button onclick="rateMovie(4)">4 ⭐</button>
-        <button onclick="rateMovie(3)">3 ⭐</button>
-        <button onclick="rateMovie(2)">2 ⭐</button>
-        <button onclick="rateMovie(1)">1 ⭐</button>
-
-        <p id="average">Average Rating: 0</p>
+        <p id="interstellar average">Average Rating: 0</p>
     </div>
+    <div class="movie">
+        <h2>Inception</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg" width="200">
+        <br><br>
 
+        <button onclick="rateMovie('inception',5)">⭐⭐⭐⭐⭐</button>
+        <button onclick="rateMovie('inception',4)">⭐⭐⭐⭐</button>
+        <button onclick="rateMovie('inception',3)">⭐⭐⭐</button>
+        <button onclick="rateMovie('inception',2)">⭐⭐</button>
+        <button onclick="rateMovie('inception',1)">⭐</button>
+
+        <p id="inception-average">
+            Average Rating: 0
+        </p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
